@@ -9,7 +9,7 @@
   --cream: #f5f0e8;
   --sand: #ddd0bf;
   --terracotta: #b66f55;
-  --blush: #e8d5cf;
+  --blush: #dfe2df;
   --white: #fffdf9;
   --line: rgba(23, 33, 29, 0.14);
   --shadow: 0 24px 70px rgba(23, 33, 29, 0.12);
@@ -126,12 +126,12 @@ h3 { font-family: var(--serif); font-size: clamp(1.8rem, 3vw, 2.7rem); font-weig
 .pathway-copy p { max-width: 590px; color: var(--ink-soft); }
 .pathway-copy .text-link { margin-top: auto; }
 
-.postpartum { overflow: hidden; background: linear-gradient(125deg, var(--blush), #eee2dc 55%, var(--cream)); }
+.postpartum { overflow: hidden; background: linear-gradient(125deg, var(--blush), #ecebe7 55%, var(--white)); }
 .postpartum-grid { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1fr); gap: clamp(3rem, 7vw, 8rem); align-items: center; }
 .postpartum-visual { position: relative; min-height: 700px; }
 .postpartum-main-image { position: absolute; inset: 0 11% 0 0; overflow: hidden; border-radius: 180px 14px 14px 14px; box-shadow: var(--shadow); }
 .postpartum-main-image img { object-position: center; }
-.postpartum-note-card { position: absolute; right: 0; bottom: 10%; width: min(275px, 54%); padding: 1.3rem; border: 1px solid rgba(255,255,255,.55); border-radius: 10px; background: rgba(255,253,249,.82); box-shadow: 0 15px 50px rgba(70,44,36,.13); backdrop-filter: blur(14px); }
+.postpartum-note-card { position: absolute; right: 0; bottom: 10%; width: min(275px, 54%); padding: 1.3rem; border: 1px solid rgba(255,255,255,.72); border-radius: 10px; background: rgba(255,255,255,.84); box-shadow: 0 15px 50px rgba(23,33,29,.11); backdrop-filter: blur(14px); }
 .postpartum-note-card span { display: block; margin-bottom: .45rem; color: var(--terracotta); font-size: .65rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 .postpartum-note-card strong { font-family: var(--serif); font-size: 1.45rem; font-weight: 500; line-height: 1.12; }
 .postpartum-content h2 { font-size: clamp(3.3rem, 5.7vw, 6.4rem); }

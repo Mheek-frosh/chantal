@@ -23,7 +23,7 @@ export const NAV_LINKS = [
   { label: "The Method", href: "#method" },
   { label: "Programs", href: "#programs" },
   { label: "Postpartum", href: "#postpartum" },
-  { label: "For Men", href: "#for-men" },
+  { label: "For Women", href: "#postpartum" },
   { label: "About", href: "#experience" },
 ] as const;
 
